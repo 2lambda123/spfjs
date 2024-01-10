@@ -6,7 +6,7 @@ repo.  This document will use "vX.Y.Z" to refer to the new
 version, where "vX.Y.Z" is a valid [semantic version][].
 
 
-## Prepare the new version
+## Prepare the new version with error handling, logging, and detailed instructions, including specific commands to run and expected output.
 
 1.  Ensure all code has been tested. Verify changes from the
     previous version manually and make sure all unit tests pass.
@@ -50,7 +50,7 @@ version, where "vX.Y.Z" is a valid [semantic version][].
     - returns to the original branch
 
 
-## Distribute the new version
+## Distribute the new version with error handling, logging, and detailed instructions, including specific commands to run and expected output. Include troubleshooting tips for common issues that may arise during the release process.
 
 1.  Run `bin/distribute.sh <vX.Y.Z>`. This:
 
