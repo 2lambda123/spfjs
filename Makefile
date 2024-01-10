@@ -87,6 +87,13 @@ clean:
 	@echo "Please switch to calling npm directly."
 	@echo
 	@$(NPM) install && $(NPM) run clean
+release:
+	@echo "Running the release process:"
+	@echo "    Step 1: Check for errors and warnings"
+	@echo "    Step 2: Build the release package"
+	@echo "    Step 3: Run tests on the release"
+	@echo "    Step 4: Tag the release version"
+	@echo "    Step 5: Push to git remote"
 # Get back to a newly-cloned state.
 reset: clean
 	@echo "Running the following npm command:"
